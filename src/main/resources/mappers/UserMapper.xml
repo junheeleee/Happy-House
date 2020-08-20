@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.dao.UserDAO">
+
+   <!-- 유저 입력 -->
+   <insert id="join">
+      insert into userinfo(id,password,name,email,phone) 
+      values (#{id},#{password},#{name},#{email},#{phone})
+   </insert>
+	<select id="login" resultType="int">
+	select EXISTS (select * from userinfo where id = #{id} and password = #{password})
+	<!-- select * from userinfo where id=#{id}, password =#{password} -->
+		<!-- select count(*) from userinfo
+		where id=#{id}, password=#{password} -->
+	</select>
+	<select id="check" resultType="int">
+   		SELECT count(*) as cnt
+   		FROM userinfo
+   		WHERE id = #{id}
+   </select>
+   <!-- (수정폼에 출력할) 유저 조회 -->
+   <select id="search" resultType="userinfo">
+      SELECT * 
+      FROM userinfo
+      where id = #{id}
+   </select>
+   <!-- (수정폼에 입력된) 유저 수정 -->
+   <update id="modify">
+      update userinfo 
+      set name=#{name}, email=#{email}, phone=#{phone} 
+      where id=#{id}
+   </update>
+
+   <!-- (번호로 구분하는 )유저 삭제 -->
+   <delete id="delete">
+      delete from userinfo 
+      where id=#{id}
+   </delete>
+
+</mapper>    

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.dao.QnADAO">
+
+	<!-- QnA 전체 조회 -->
+	<select id="selectQnA" resultType="qna"> <!-- returnType 대소문자상관없음 -->
+		select qna_no as qnaNo, 
+			qna_title as qnaTitle, 
+			qna_content as qnaContent, 
+			qna_userid as qnaUserid, 
+			qna_datetime as qnaDatetime, 
+			reply_content as replyContent, 
+			reply_datetime as replyDatetime, 
+			reply_userid as replyUserid
+		from qna_board 
+		order by qnaNo desc
+	</select>
+	
+	<!-- QnA 하나 조회 -->
+	<select id="selectQnAByNo" resultType="qna">
+		select qna_no as qnaNo, 
+			qna_title as qnaTitle, 
+			qna_content as qnaContent, 
+			qna_userid as qnaUserid, 
+			qna_datetime as qnaDatetime, 
+			reply_content as replyContent, 
+			reply_datetime as replyDatetime, 
+			reply_userid as replyUserid
+		from qna_board
+		where qna_no = #{qnaNo}
+	</select>
+	
+	<!-- QnA 등록 -->
+	<insert id="insertQnA" parameterType="com.ssafy.happyhouse.dao.QnADAO">
+		insert into qna_board(
+			qna_title, qna_content, qna_userid
+		) values (
+			#{qnaTitle}, #{qnaContent}, #{qnaUserid}
+		)
+	</insert>
+	
+	<!-- QnA 수정 -->
+	<update id="updateQnA" parameterType="com.ssafy.happyhouse.dao.QnADAO">
+		update qna_board 
+		   set qna_title = #{qnaTitle}, 
+		   	   qna_userid = #{qnaUserid}, 
+		   	   qna_content = #{qnaContent}
+		 where qna_no = #{qnaNo}
+	</update>
+
+	<!-- QnA 삭제 -->
+	<delete id="deleteQnA" parameterType="int">
+		delete 
+		  from qna_board 
+		 where qna_no = #{qnaNo}
+	</delete>
+	
+		<!-- QnA 등록 -->
+	<insert id="insertReply" parameterType="com.ssafy.happyhouse.dao.QnADAO">
+		update qna_board 
+		   set reply_content = #{replyContent},
+		   	   reply_userid = #{replyUserid},
+		   	   reply_datetime = NOW()
+		 where qna_no = #{qnaNo}
+	</insert>
+	
+	<!-- QnA 수정 -->
+	<update id="updateReply" parameterType="com.ssafy.happyhouse.dao.QnADAO">
+		update qna_board 
+		   set reply_content = #{replyContent},
+		   	   reply_userid = #{replyUserid},
+		   	   reply_datetime = NOW()
+		 where qna_no = #{qnaNo}
+	</update>
+
+	<!-- QnA 삭제 -->
+	<delete id="deleteReply" parameterType="int">
+		update qna_board 
+		  set reply_content = '', reply_datetime = null, reply_userid = ''
+		 where qna_no = #{qnaNo}
+	</delete>
+	
+	
+	
+	
+	
+</mapper>
+

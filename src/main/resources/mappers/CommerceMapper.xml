@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mappers/gueset.xml -->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.dao.CommerceDAO"> <!-- mybatis는 namespace필수!! -->
+   <!-- 위 놈을 mapper로 하셨구나 -->
+   <!-- id, name, price, description
+        id, 이름,       가격,           설명 -->
+        
+   <sql id="colums">
+   		shopname, codename1, codename3, address
+   </sql>
+
+   
+   <select id="selectAll" resultType="Commerce"> <!-- resultType속성 필수!! -->
+       select <include refid="colums"></include> 
+       from commerce 
+       where dong=#{interestArea}
+   </select>
+   
+   <select id="search" resultType="Commerce">
+       select <include refid="colums"></include> 
+       from commerceinfo 
+       where dong=#{interestArea}
+       <if test="#{key} != null">
+       	 and ${key} like '%${word}%'
+       </if>
+        limit #{paging.startNum}, ${paging.displayRow}
+   </select>
+   
+   <select id="getCount" resultType="int">
+   		select count(*) as cnt 
+   		from commerceinfo 
+   		where dong like '%${interestArea}%'
+   		<if test="#{key} != null">
+       	 and ${key} like '%${word}%'
+       </if>
+   </select>
+   
+   <select id="getGu" resultType="String">
+       select distinct gu from commerceinfo where dong=#{interestArea}
+   </select>
+   
+</mapper>    
+    
+    
+    
+    
+    
+    

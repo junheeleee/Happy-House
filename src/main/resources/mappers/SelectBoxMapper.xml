@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.dao.SelectBoxDAO">
+
+<!-- 	<select id="selectSido" resultType="com.ssafy.happyhouse.model.SidoCodeDTO">
+		SELECT left(sido_code,2) sido_code, sido_name FROM sidocode
+		ORDER BY sido_code
+	</select>
+	<select id="selectGugun" resultType="com.ssafy.happyhouse.model.SidoCodeDTO">
+		SELECT left(gugun_code,5) gugun_code, gugun_name FROM guguncode
+		where left(gugun_code,2) = #{gugun_code}
+	</select>
+	<select id="selectDong" resultType="com.ssafy.happyhouse.model.HouseInfoDTO">
+		SELECT distinct dong, code FROM houseinfo
+		where code = #{gugun}
+		ORDER BY dong
+	</select>
+	<select id="selectApt" resultType="com.ssafy.happyhouse.model.HouseInfoDTO">
+		SELECT no,dong,AptName,code,jibun FROM houseinfo WHERE dong = #{dong}
+		ORDER BY AptName
+	</select>
+	   <select id="getCount" resultType="Integer">
+   		SELECT COUNT(no) AS count 
+   		FROM houseinfo 
+   		WHERE dong = #{dong}
+   </select> -->
+      <sql id="colums">
+   		shopname, codename1, codename3, address
+   </sql>
+   
+   <insert id="insert" >
+       insert into product (<include refid="colums"></include>) values 
+        (#{id},#{name},#{price},#{description}) 
+   </insert>
+   
+   <select id="selectSido" resultType="sidoCodeDTO"> <!-- resultType속성 필수!! -->
+       SELECT left(sido_code,2) sido_code, sido_name FROM sidocode 
+       ORDER BY sido_code
+   </select>
+   
+   <select id="selectGugun" resultType="sidoCodeDTO">
+       SELECT left(gugun_code,5) gugun_code, gugun_name FROM guguncode 
+       WHERE left(gugun_code,2)=#{sido} 
+       ORDER BY gugun_code
+   </select>
+   
+   <select id="selectDong" resultType="houseInfoDTO">
+       SELECT distinct dong, code FROM houseinfo  
+       where code=#{gugun}
+   </select>
+   
+   
+   <select id="selectApt" resultType="houseInfoDTO">
+       SELECT * 
+       FROM ssafydb.houseinfo 
+       WHERE dong=#{dong} 
+   </select>
+   
+   <select id="getCount" resultType="Integer">
+   		SELECT COUNT(no) AS count 
+   		FROM houseinfo 
+   		WHERE dong = #{dong}
+   </select>
+   
+   <select id="getGu" resultType="String">
+       select distinct gu from commerce where dong=#{interestArea}
+   </select>
+</mapper>

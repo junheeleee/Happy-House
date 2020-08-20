@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ssafy.happyhouse.controller.SelectBoxController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/SelectBoxController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="235" x="97" y="71"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.ssafy.happyhouse.controller.MainController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/MainController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="350" width="414" x="1153" y="56"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ssafy.happyhouse.controller.UserRestController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/UserRestController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="594" x="400" y="77"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ssafy.happyhouse.controller.CommerceController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/CommerceController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="386" x="2479" y="51"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.ssafy.happyhouse.controller.UserController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/UserController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="264" x="397" y="299"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.ssafy.happyhouse.controller.MainRestController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/MainRestController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="358" x="710" y="293"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.ssafy.happyhouse.controller.QnAController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/QnAController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="296" width="200" x="2205" y="30"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.ssafy.happyhouse.controller.NoticeController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/NoticeController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="242" width="197" x="1945" y="36"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.ssafy.happyhouse.controller.PollutionController" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/controller/PollutionController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="333" x="2975" y="49"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="com.ssafy.happyhouse.dao.CommerceDAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/CommerceDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3228" y="600"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.ssafy.happyhouse.model.Commerce" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/Commerce.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2716" y="776"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="com.ssafy.happyhouse.service.CommerceService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/CommerceService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2695" y="319"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.ssafy.happyhouse.service.CommerceServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/CommerceServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3393" y="310"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="com.ssafy.happyhouse.service.PollutionService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/PollutionService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3077" y="414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="com.ssafy.happyhouse.service.PollutionServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/PollutionServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2696" y="509"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.ssafy.happyhouse.model.PollutionDto" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/PollutionDto.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="463" width="156" x="2909" y="497"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="com.ssafy.happyhouse.dao.HouseDAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/HouseDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1320" y="835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="com.ssafy.happyhouse.service.UserService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/UserService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="696" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="com.ssafy.happyhouse.service.UserServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/UserServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="684" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="com.ssafy.happyhouse.dao.UserDAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/UserDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="470" y="611"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="21" language="java" name="com.ssafy.happyhouse.service.HouseServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/HouseServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="711"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="com.ssafy.happyhouse.service.HouseService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/HouseService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1324" y="611"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="com.ssafy.happyhouse.service.SelectBoxServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/SelectBoxServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="221" y="523"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="com.ssafy.happyhouse.service.SelectBoxService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/SelectBoxService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="220" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.ssafy.happyhouse.service.QnAServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/QnAServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2068" y="452"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="com.ssafy.happyhouse.service.QnAService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/QnAService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2316" y="452"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="27" language="java" name="com.ssafy.happyhouse.service.NoticeService" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/NoticeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1769" y="135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="28" language="java" name="com.ssafy.happyhouse.service.NoticeServiceImpl" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/service/NoticeServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1755" y="386"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="29" language="java" name="com.ssafy.happyhouse.dao.NoticeDAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/NoticeDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1752" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="com.ssafy.happyhouse.dao.QnADAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/QnADAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2069" y="729"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="31" language="java" name="com.ssafy.happyhouse.model.QnA" project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/QnA.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="377" width="164" x="2222" y="582"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.ssafy.happyhouse.model.NoticeDto" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/NoticeDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="255" width="138" x="1738" y="720"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="33" language="java" name="com.ssafy.happyhouse.dao.SelectBoxDAO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/dao/SelectBoxDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="223" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="34" language="java" name="com.ssafy.happyhouse.model.UserInfo" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/UserInfo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="280" width="227" x="188" y="824"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.ssafy.happyhouse.model.HouseInfo" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/HouseInfo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="514" y="1161"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.ssafy.happyhouse.model.Paging" project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/Paging.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="790" y="1331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.ssafy.happyhouse.model.HouseDeal" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/HouseDeal.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="1601"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.ssafy.happyhouse.model.SidoCodeDTO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/SidoCodeDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1181" y="1187"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.ssafy.happyhouse.model.HouseInfoDTO" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/HouseInfoDTO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1376" y="1322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.ssafy.happyhouse.model.Region" project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/Region.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1574" y="1196"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.ssafy.happyhouse.model.HousePageBean" 
+    project="HappyHouse_Web_Spring_광주_04_이광일_이준희" 
+    file="/HappyHouse_Web_Spring_광주_04_이광일_이준희/src/main/java/com/ssafy/happyhouse/model/HousePageBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1787" y="1412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="42">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="43">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="44">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="45">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="46" name="mapper"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="49" name="service"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="52" name="mapper"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="55" name="userService"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="58">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="59" name="dao"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="61">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="62">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="63" name="mapper"/>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="66" name="dao"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="69" name="pollutionService"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="71">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="72">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="73" name="dao"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="76" name="commerceService"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="78">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="27"/>  
+  </realization>  
+  <association id="79">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="80" name="userService"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="83" name="commerceService"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="86" name="userService"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="89" name="houseService"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="92" name="houseService"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="95" name="qnaService"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="98" name="noticeService"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
